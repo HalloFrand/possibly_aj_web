@@ -1,0 +1,76 @@
+
+<head>
+    
+    <style>
+    
+        p{
+         font-family: comic sans ms;
+         font-size: 38pt;
+         font-weight: bold;
+         color: brown;
+         text-align: center;
+         margin: 50px;    
+        }
+        div{
+         background-color: darkred;
+         background-repeat: no-repeat;
+         display: block;
+         width: 100px;
+         height: 100px;
+         
+         position: relative;
+         margin: auto;
+       
+         border-radius: 70px;
+         
+         
+        }
+    </style>
+   
+
+    <script>
+        //script is how site works
+        
+        //function declares that whatever you're gonna write is a function. A function can have any non-taken name but it should not start with a number or special character.
+        
+        //variables.  There are two types: local and global.  Local are >inside< functions that does not exist other than inside the function.  Global variables are variables created >outside< any function and all functions can use it.
+         var sc;
+         var button;
+        var scoreDisplay;
+        function init(){
+           
+            sc = 0;
+            
+            button = document.getElementById("clicky");
+            scoreDisplay = document.getElementById("score");
+            
+        }
+        
+        function clicked(){
+            sc = sc + 1;
+            scoreDisplay.innerHTML = sc;
+            
+            button.style.top = sc;
+            
+            
+        }
+        
+    </script>
+     
+    
+    
+</head>
+
+<body onload="init()">
+    <p id="score">
+      0
+    </p>
+    <p> 
+ 
+    </p>
+    <div onclick="clicked()" id="clicky">
+        CLICKY!!!
+       
+    </div>
+    
+</body>
