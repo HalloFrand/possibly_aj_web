@@ -1,0 +1,13 @@
+p{
+    font: bold 20px tahoma;
+    
+}
+h1{
+    font-family: apple chancery;
+     background-color: lightpink;
+     padding:50px;
+}
+
+#top{
+    border: 5px dotted black;
+}
