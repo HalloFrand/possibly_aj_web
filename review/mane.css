@@ -1,5 +1,5 @@
 p{
-    font: bold 20px tahoma;
+    font:  20px tahoma;
     
 }
 h1{
@@ -10,4 +10,13 @@ h1{
 
 #top{
     border: 5px dotted black;
+}
+
+#desc1{ font: tahoma;
+        font-size: 15px;
+    
+}
+
+#header1{ font-weight: bold;
+    
 }
