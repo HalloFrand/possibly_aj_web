@@ -1,22 +1,44 @@
-p{
-    font:  20px tahoma;
-    
-}
+
 h1{
     font-family: apple chancery;
-     background-color: lightpink;
-     padding:50px;
+    background-color: lightpink;
+    padding:50px;
+    font: apple chancery;
+    border: 5px dotted black;
 }
 
+h2{
+    font-family: Tahoma;
+    font-size: 30px;
+}
+
+h3{
+    font-family: Tahoma;
+    font-size: 30px;
+}
+
+h4{
+    font-family: Tahoma;
+    font-size: 30px;
+}
+
+h5{
+    font-family: comic sans ms;
+    font-size: 50px;
+}
+
+
 #top{
+    font: apple chancery;
     border: 5px dotted black;
 }
 
 #desc1{ font: tahoma;
-        font-size: 15px;
+        font-size: 20px;
     
 }
 
-#header1{ font-weight: bold;
-    
+#foodies{
+    font-size: 20px;
 }
+
