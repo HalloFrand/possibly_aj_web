@@ -2,7 +2,6 @@ h1 {
     font-family: apple chancery;
     background-color: lightpink;
     padding: 50px;
-    font: apple chancery;
     border: 5px dotted black;
 }
 
@@ -48,4 +47,13 @@ body {
 
 #table {
     margin-right: 100px;
+}
+
+#nmd{
+ color: grey;
+ background-color: pink;
+    font-family: apple chancery;
+}
+#cpy{
+    font-family: tahoma;
 }
