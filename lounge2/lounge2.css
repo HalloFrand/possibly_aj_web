@@ -1,0 +1,54 @@
+
+
+body{
+    font-size: small;
+}
+
+h1{
+    font-size: 150%;
+}
+
+h2{
+    font-size: 130%;
+}
+
+h1, h2{
+    font-family: verdana;
+    color: #007e7e;
+}
+
+p{
+    font-family: helvetica;
+    line-height: 1.6em;
+}
+
+#guarantee{
+ background-color: #a7cece;
+ border: dotted black 3px;
+ font-family: "times new roman";
+ color: #444444;
+ background-image: url(images/star.gif);
+ background-repeat: no-repeat;
+ padding-left: 75px;
+ padding-bottom: 25px;
+}
+
+#footer{
+    color: red;
+}
+
+#elixirs:link; {
+    color: #007e7e;
+}
+
+a:#directions:link{
+    color: aquamarine;
+}
+
+a:visited {
+    color: #333333;
+}
+
+a:hover {
+    color: white;
+}
