@@ -1,0 +1,11 @@
+body{
+  background-color: #F9AFF7;
+}
+
+#generic{
+    height: 300px;
+    border: outset;
+    border-color: #33ECFF;
+    float: left;
+    padding-right: 15px;
+}
