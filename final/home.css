@@ -2,13 +2,28 @@ body{
     background-color: #EFC0EE;
 }
 
-#yeet{
-}
-
-#them{
+p{
+    padding: 5px;
+    font-size: 20px;
+    background-color: #404040;
+    color: #3CB538;
+    border: groove;
 }
 
 #if{
     width: 1200px;
     height: 600px;
+    border: groove;
 }
+
+table{
+    border: 2px solid #33ECFF;
+    border-collapse: collapse;
+}
+
+td, th
+{
+ border: 1px solid #33ECFF;
+ padding: 250px;
+}
+

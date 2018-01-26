@@ -4,8 +4,13 @@ body{
 
 #generic{
     height: 300px;
+    width: 500px;
     border: outset;
     border-color: #33ECFF;
     float: left;
-    padding-right: 15px;
+}
+
+p{
+  font-size: 22px;
+  margin-left: 515px;
 }
